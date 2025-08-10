@@ -4,21 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Box Model</title>
     <style>
-        .box {
+        .child {
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .grandp {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid rgb(0, 0, 0);
+            height: 100vh;
         }
     </style>
 </head>
 
 <body>
 
-    <div >
-        <div class="box"
-            style="height: 500px; width: 500px; border: 20px; border-color: rgb(200, 27, 27); background-color: blue;  ">
+    <div class="grandp">
+        <div class="child"
+            style="height: 300px; width: 300px; border: 20px; border-color: rgb(200, 27, 27); background-color: blue;  ">
             <h2>This is Prashanta</h2>
         </div>
     </div>
