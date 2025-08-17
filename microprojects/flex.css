@@ -1,0 +1,14 @@
+.parent {
+    padding: 25px;
+    background-color: aquamarine;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.child {
+    border: 2px solid rgb(238, 45, 45);
+    padding: 20px;
+    background-color: cornsilk;
+    font-size: 28px;
+}
