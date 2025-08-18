@@ -4,7 +4,8 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    height: 500px;
+    /* height: 400px; */
+    width: ;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
