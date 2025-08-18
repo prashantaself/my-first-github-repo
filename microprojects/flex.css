@@ -12,6 +12,7 @@
 
 .child {
     border: 2px solid rgb(238, 45, 45);
+    border-radius: 30px;
     padding: 20px;
     background-color: cornsilk;
     font-size: 20px;
